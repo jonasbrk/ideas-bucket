@@ -4,5 +4,8 @@
     "module": "NodeNext",
     "resolveJsonModule": true,
     "esModuleInterop": true
-  }
+  },
+  "exclude": [
+    "__tests__/**/*-test.ts"
+]
 }
